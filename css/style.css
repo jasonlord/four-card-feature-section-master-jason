@@ -1,0 +1,257 @@
+        /*
+*  html5resetcss
+*/
+        
+        html,
+        body,
+        div,
+        span,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        abbr,
+        address,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        samp,
+        small,
+        strong,
+        sub,
+        sup,
+        var,
+        b,
+        i,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent
+        }
+        
+        body {
+            line-height: 1
+        }
+        
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block
+        }
+        
+        nav ul {
+            list-style: none
+        }
+        
+        blockquote,
+        q {
+            quotes: none
+        }
+        
+        blockquote:before,
+        blockquote:after,
+        q:before,
+        q:after {
+            content: none
+        }
+        
+        a {
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent
+        }
+        
+        ins {
+            background-color: #ff9;
+            color: #000;
+            text-decoration: none
+        }
+        
+        mark {
+            background-color: #ff9;
+            color: #000;
+            font-style: italic;
+            font-weight: bold
+        }
+        
+        del {
+            text-decoration: line-through
+        }
+        
+        abbr[title],
+        dfn[title] {
+            border-bottom: 1px dotted;
+            cursor: help
+        }
+        
+        table {
+            border-collapse: collapse;
+            border-spacing: 0
+        }
+        
+        hr {
+            display: block;
+            height: 1px;
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 1em 0;
+            padding: 0
+        }
+        
+        input,
+        select {
+            vertical-align: middle
+        }
+        /*
+*  end of html5resetcss
+*/
+        /*
+*  start of custom css
+*/
+        
+         :root {
+            --myRed: hsl(0, 78%, 62%);
+            --myCyan: hsl(180, 62%, 55%);
+            --myOrange: hsl(34, 97%, 64%);
+            --myBlue: hsl(212, 86%, 64%);
+            --myVeryDarkBlue: hsl(234, 12%, 34%);
+            --myGrayishBlue: hsl(229, 6%, 66%);
+            --myVeryLightGray: hsl(0, 0%, 98%);
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--myVeryLightGray);
+            font-size: 15px
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 2.285rem;
+            font-weight: 600;
+            margin-top: 5.5rem;
+            font-weight: 200;
+        }
+        
+        h1 span {
+            display: block;
+            font-weight: 600;
+            margin-top: 1rem
+        }
+        
+        p {
+            text-align: center;
+            margin-top: 2rem;
+            max-width: 500px;
+            line-height: 1.5rem;
+            margin: 1.5rem auto;
+        }
+        
+        div.box {
+            width: 350px;
+            margin: 1rem;
+            height: 250px;
+            border-radius: 5px;
+            float: left;
+            background-repeat: no-repeat;
+            background-position: 255px 150px;
+            -webkit-box-shadow: 0px 10px 34px 0px rgba(170, 171, 179, .3);
+            -moz-box-shadow: 0px 10px 34px 0px rgba(170, 171, 179, .3);
+            box-shadow: 0px 10px 34px 0px rgba(170, 171, 179, .3);
+        }
+        
+        h2 {
+            font-size: 1.3rem;
+            margin: 2rem 2rem 0rem 2rem;
+        }
+        
+        div.box p {
+            text-align: left;
+            font-size: .8rem;
+            margin-left: 2rem;
+            margin-right: 3rem;
+            margin-top: 1rem
+        }
+        
+        .cardContainer {}
+        
+        div.magnifier {
+            background-image: url("/images/icon-supervisor.svg");
+            border-top: 4px solid var(--myCyan)
+        }
+        
+        div.karma {
+            border-top: 4px solid var(--myOrange);
+            background-image: url("/images/icon-karma.svg");
+        }
+        
+        div.calculator {
+            border-top: 4px solid var(--myBlue);
+            background-image: url("/images/icon-calculator.svg");
+        }
+        
+        div.teamBuilder {
+            border-top: 4px solid var(--myRed);
+            background-image: url("/images/icon-team-builder.svg");
+        }
