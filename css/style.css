@@ -273,6 +273,7 @@ div.calculator {
 
 div.teamBuilder {
     border-top: 4px solid var(--myRed);
+    background-image: url("/images/icon-team-builder.svg");
 }
 
 @media (max-width: 1150px) {
