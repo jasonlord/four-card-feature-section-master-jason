@@ -276,7 +276,7 @@ div.teamBuilder {
     background-image: url("/images/icon-team-builder.svg");
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1145px) {
     .cardContainer {
         width: 100%;
     }
