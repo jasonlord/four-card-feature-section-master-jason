@@ -199,6 +199,7 @@ h1 {
     margin-right: auto;
     font-weight: 600;
     max-width: 500px;
+    line-height: 3rem;
 }
 
 h1::first-line {
