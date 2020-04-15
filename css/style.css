@@ -216,6 +216,8 @@ p {
 }
 
 div.box {
+    flex-grow: 0;
+    flex-shrink: 1;
     width: 350px;
     margin: 1rem;
     height: 250px;
@@ -241,16 +243,27 @@ div.box p {
     margin-top: 1rem;
 }
 
-.cardContainer {}
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1150px;
+    margin: 0 auto;
+}
 
 div.magnifier {
     background-image: url("/images/icon-supervisor.svg");
     border-top: 4px solid var(--myCyan);
+    position: relative;
+    top: 133px;
 }
 
 div.karma {
     border-top: 4px solid var(--myOrange);
     background-image: url("/images/icon-karma.svg");
+    position: relative;
+    top: 133px;
 }
 
 div.calculator {
@@ -260,5 +273,14 @@ div.calculator {
 
 div.teamBuilder {
     border-top: 4px solid var(--myRed);
-    background-image: url("/images/icon-team-builder.svg");
+}
+
+@media (max-width: 1150px) {
+    .cardContainer {
+        width: 100%;
+    }
+    div.magnifier,
+    div.karma {
+        position: static;
+    }
 }
