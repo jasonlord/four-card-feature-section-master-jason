@@ -263,13 +263,13 @@ div.magnifier {
 div.karma {
     border-top: 4px solid var(--myOrange);
     background-image: url("/images/icon-karma.svg");
-    position: relative;
-    top: 133px;
 }
 
 div.calculator {
     border-top: 4px solid var(--myBlue);
     background-image: url("/images/icon-calculator.svg");
+    position: relative;
+    top: 133px;
 }
 
 div.teamBuilder {
